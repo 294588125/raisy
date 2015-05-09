@@ -1,0 +1,40 @@
+#support{
+	width: 790px;
+	height: 200px;
+	background: #fff;
+	/*position: relative;*/
+	margin-top: 20px;
+}
+#support li{
+	width: 163px;
+	height: 172px;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+	margin-top:20px;
+	float: left;
+	text-align: center;
+}
+#support p{
+	font-size: 14px;
+	color: #999;
+	line-height: 25px;
+}
+#support .message{
+	cursor:pointer;
+	border-top: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	width: 163px;
+	height: 40px;
+	background: #fff;
+}
+#support .message p{
+	line-height: 40px;
+	text-align: center;
+	z-index: 1;
+	color: #55acef;
+	font-size: 16px;
+}
+td{
+	text-align:center;
+	color:#55ACEF;
+}

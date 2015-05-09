@@ -1,0 +1,66 @@
+#project-like .support-operate a{
+	color: #ED5E58;
+}
+#project-like .support-operate a:hover{
+	color:#55acef;
+}
+.name ,.support-operate {
+	position:relative;
+}
+.name .launcher-information{
+	color:blue;
+}
+.name .launcher-information{
+	color:blue;
+	cursor: pointer;
+}
+.launcher-information-shrill ,.repay-detail-shrill ,.take-good-address-shrill{
+	display:block;
+	position:absolute;
+	top:-7px;
+	width:13px;
+	height:13px;
+	background: url('../img/shrill.png') no-repeat;
+	z-index: 2;
+}
+.launcher-information-shrill{
+	left:40px;
+	
+}
+.repay-detail-shrill{
+	left:215px;
+}
+.take-good-address-shrill{
+	left:220px;
+}
+
+.launcher-information-detail ,.repay-detail-information ,.take-good-address-detail{
+	padding:10px;
+	width:250px;
+	line-height:190%;
+	background:#f8f8f8;
+	border:1px solid #dfdfdf;
+	border-radius:10px;
+	position:absolute;	
+	z-index:1;
+	display:none;
+}
+.launcher-information-detail {
+	height:80px;
+	left:110px;
+	top:66px;
+}
+.repay-detail-information{
+	height:70px;
+	left:-200px;
+	top:73px;
+} 
+.take-good-address-detail{
+	height:150px;
+	left:-150px;
+	top:73px;
+}
+h4{
+	color:#55acef;
+}
+

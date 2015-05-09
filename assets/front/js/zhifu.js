@@ -1,0 +1,10 @@
+$(function(){
+	$('.newad').click(function(){
+		$('#matteBox').css('display','block');
+		$('#kuang').css('display','block');
+	});
+	$('.close').click(function(){
+		$('#matteBox').css('display','none');
+		$('#kuang').css('display','none');
+	});
+});

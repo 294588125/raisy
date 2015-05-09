@@ -1,0 +1,90 @@
+#project-header-behind{
+	width:100%;
+	height:60px;
+}
+
+#person-message .browse{
+	margin-left: 190px;
+}
+#project-launch,#project-like{
+	
+	width: 1230px;
+	margin:0 auto;	
+}
+#project-launch .type ul,#project-like .type ul{
+	height: 54px;
+	margin-top:40px;	
+}
+#project-launch .type li,#project-like .type li{
+	border:2px solid #e5e5e5;
+	background: #fff;	
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	width: 400px;
+	float:left;
+}
+#project-launch .type .selected,#project-like .type .selected{
+	background: #55acef;	
+}
+.type .selected a{
+	color: #fff;
+}
+.type a{
+	display: block;
+	height: 50px;
+	width: 400px;
+	font: 12px;
+	color:#333;	
+}
+ table{
+	width: 100%;	
+	border-collapse: collapse;
+	text-align: left;
+	font-size: 12px;
+	
+}
+table .title{	
+	background:#e5e5e5; 
+	height: 34px;
+	line-height: 34px;
+}
+ th{
+	padding-left:5px;
+}
+
+ table tr{	
+	border-bottom: 1px solid #e5e5e5;	
+}
+ table td{
+	height: 103px;
+	padding-left:5px;	
+
+}
+ tbody p,#project-launch .content td a{
+	color:#333;
+	font-size: 12px;
+	font-weight: normal;
+}
+#project-launch .content td a{
+	color:#55acef;	
+	float:left;
+	width: 25px;
+}
+#project-launch .content td a:hover{
+	text-decoration:underline;
+}
+
+ table .name a{
+	float:left;
+}
+.status .selected{
+	background:#CCCCCC;
+}
+.name img{
+	margin:5px;
+	padding-right:20px;
+	width:105px;
+	height:105px;
+}
+

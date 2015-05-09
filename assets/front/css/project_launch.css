@@ -1,0 +1,27 @@
+
+#project-launch .content ul{
+	border-bottom: 1px solid #e5e5e5;
+	height: 36px;	
+	margin-top: 20px;
+	margin-bottom: 15px;
+	width: 100%;	
+}
+#project-launch .content li{
+	border-bottom:1px solid #e5e5e5;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	width: 88px;
+	float:left;
+}
+#project-launch .status a{
+	display: block;
+	font-weight: bold;
+	width: 88px;
+	font-size: 14px;
+	color:#000;
+}
+#project-launch .name p{
+	margin-left: 110px;
+	width: 300px;
+}

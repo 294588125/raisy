@@ -1,0 +1,188 @@
+#container{
+	/*margin-top: 50px;*/
+	width: 1084px;
+	height: 2000px;
+	z-index: 10;
+}
+#particulars-left{
+	height: 2900px;
+	z-index: 102
+}
+#footer{
+	/*margin-top: 500px;*/
+	margin-bottom: -500px;
+}
+#particulars-right{
+	width: 292px;
+	height: 2000px;
+	z-index: 10;
+}
+#comment{
+	margin-top: 50px;
+	width: 700px;
+	height: 200px;
+	border: 2px solid #ccc;
+}
+#answer{
+	margin-top: 30px;
+	width: 160px;
+	height: 50px;
+	background: #fff;
+	border: 2px solid  #55acef;
+	float: right;
+	margin-right: 75px;
+	cursor: pointer;
+}
+#answer .asr{
+    font-size: 16px;
+    color:  #55acef;
+}
+#content{
+	margin-top: 130px;
+	width: 700px;
+	height: 50px;
+	background: #f6f6f6;
+	font-size: 15px;
+}
+#content .all a{
+	font-size:20px;
+	color: #55acef;
+}
+#content .section a{
+	color: #ccc;
+}
+#content li{
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	width: 300px;
+}
+#pinglun li{
+	list-style: none;
+
+}
+#pinglun .tx{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+} 
+
+.main{
+	width: 640px;
+	height: 100px;
+	margin-top: -50px;
+	margin-left: 60px;
+	background: #fff;
+	font-size:16px;
+}
+#pinglun .plr{
+	padding-top: 10px;
+	float: left;
+	color: #55acef;
+}
+.xiangxi{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 25px;
+}
+.main textarea{
+	font-size: 16px;
+}
+
+.pl{
+	width: 702px;
+	height: 22px;
+}
+.pl p{
+	float: right;
+	color: red;
+	cursor: pointer;
+}
+
+.pln{
+	width: 702px;
+	height: 121px;
+	display: none;
+	/*background: #ccc;*/
+	
+}
+.pln a{
+	float: right;
+	color: #55acef;
+	cursor: pointer;
+	margin-right:30px;
+	
+}
+
+.reply_content{
+	width: 700px;
+	height: 47px;
+}
+.pln button{
+	width: 100px;
+	height: 40px;
+	color: #55acef;
+	font-size: 16px;
+	float: right;
+	background: #fff;
+	border: 2px solid #55acef;
+	text-align:center;
+	line-height:30px;
+}
+#kb{
+	height:100px;
+}
+#display{
+	border:none;
+}
+.zpl a{
+	text-align:center;
+	line-height:30px;
+}
+.none{
+	display:none;
+}
+.huifu{
+	display:none;
+}
+.back_content {
+	width:580px;
+	height:50px;
+	border:none;
+	z-index: 10;
+	background:#fff;
+	margin-left:120px;
+	font-size:16px;
+	
+}
+.back_content span{
+	float:right;
+	margin-left:10px;
+	font-size:14px;
+}
+.left img{
+	padding-top:30px;
+	margin-left:50px;
+}
+.hf{
+	cursor: pointer;
+	color:gray;
+}
+.del-id{
+	display:none;
+}
+.time{
+	font-size:14px;
+	color:gray;
+	font-weight:none;
+}
+.del{
+	cursor: pointer;
+	color:gray;
+}
+.name{
+	border:none;
+}
+
+
+

@@ -1,0 +1,78 @@
+/*setting_content开始*/
+
+#setting-content span{
+	font-size: 16px;
+}
+#setting-content .basic-information{
+	height: 45px;
+	line-height: 45px;
+	margin-bottom: 10px;
+	
+}
+#setting-content .basic-information-intro{
+	height: 150px;
+}
+
+
+#setting-content label{
+	/*display: block;*/
+	float: left;
+	height: 45px;
+	width: 80px;
+	line-height: 45px;
+	position: relative;
+}
+#setting-content input{
+	border:1px solid #e4e4e4;
+	font: 14px "微软雅黑";
+	/*height: 43px;	*/
+}
+#setting-content .sex-input{
+	height: 13px;
+	width:13px;
+	position: absolute;
+	left:30px;
+	top:17px;
+}
+#setting-content #secret{
+	position: absolute;
+	left:42px;
+}
+#setting-content .user-na{
+	width: 150px;	
+	padding-left: 5px;
+	line-height: 43px;
+}
+select{
+	height: 39px;
+	line-height: 39px;
+	width: 120px;
+}
+
+#setting-content .introduce{
+	border:1px solid #ddd;
+	overflow:hidden;
+	 resize:none;
+	margin-top: 10px;
+	padding: 15px;
+	height: 110px;
+	width: 800px;
+	font: 14px "微软雅黑";
+}
+#setting-content .save{
+	/*display: block;*/
+	opacity: 0.8;
+	float:right;
+	margin-right: 700px;
+	width: 190px;
+	height: 50px;
+	background:#489ada;
+	font-size: 18px;
+	color:#fff;
+	text-align: center;
+
+}
+
+
+
+/*setting-content结束*/

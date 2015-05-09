@@ -1,0 +1,39 @@
+#voucher-content .main-menu{
+	float:left;
+	height: 45px;
+	width: 600px;
+	line-height: 45px;
+}
+#voucher-content .main-menu li{
+	width: 140px;
+	height: 40px;
+	text-align: center;
+	background: #fff;
+	border: 2px solid #e4e4e4;
+	color:#333;
+	float:left;
+}
+#voucher-content .need-know{
+	margin-top: 10px;
+	float:right;
+	
+}
+#voucher-content .need-know a{
+	font-size: 12px;
+	color:#55acef;
+}
+#voucher-content .main-menu .selected{
+	background: #55acef;
+	color:#fff;
+}
+#voucher-content .voucher-box{
+	margin-top: 50px;
+	height: 200px;
+	width: 900px;
+
+}
+#voucher-content .voucher-box th{
+	width: 225px;
+	height: 43px;
+	
+}

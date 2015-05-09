@@ -1,0 +1,179 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* 公共部分css（可删除）*/
+
+/* 公共部分css（可删除）结束*/
+
+/*.dream-tree开始*/
+.dream-tree{
+	width: 100%;
+	height: 550px;
+	background: url(../img/dream-tree-bg.jpg) repeat;
+}
+.dream-tree p{
+	text-align: center;
+	padding-bottom: 20px
+}
+.text-1{
+	padding-top:80px; 
+	font: 37px "微软雅黑";
+	color: #fdf592;
+}
+.text-1 span{
+	font: 37px "微软雅黑";
+	font-weight: bold;
+}
+.text-2{
+	color: white;
+	font: 14px "微软雅黑";
+}
+.agreement{
+	
+	color: black;
+	font: 14px "微软雅黑";
+}
+.agreement a{
+	color: black;
+	font: 14px "微软雅黑";
+}
+#start-dream{
+	text-align: center;
+	display: inline-block;
+	border: 2px solid #fff;
+	width: 454px;
+	height: 76px;
+	line-height: 78px;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 1
+}
+#start-dream:hover{
+	text-align: center;
+	display: inline-block;
+	background: #fff;
+	border: 2px solid #fff;
+	width: 454px;
+	height: 76px;
+	line-height: 78px;
+	font-size: 30px;
+	color: #55acef;
+	margin-top: 1
+}
+.tree{
+	position: absolute;
+	width: 100%;
+	height:150px;
+	
+}
+.tree span{
+	position: relative;
+	left: 50%;
+	bottom: -4px;
+	margin-left: -75px;
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: url(../img/tree.png) no-repeat;
+}
+#toplogo{
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	width: 50px;
+	height: 60px;
+	display: none;
+	background: url(../img/top.png) no-repeat;
+	background-position: 0 0;
+}
+#toplogo:hover{
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	width: 50px;
+	height: 60px;
+	background: url(../img/top.png) no-repeat;
+	background-position: 0 -75px;
+}
+/*.dream-tree结束*/
+/* 弹层开始 */
+#alert-bg{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	background: black;
+
+}
+#alert-box{
+	display: none;
+	position: fixed;
+	top: 150px;
+	left: 50%;
+	margin-left: -150px; 
+	border: 1px solid #999;
+	outline: 0;
+	font-size: 14px;
+	color: #333;
+	width: 300px;
+	height: 200px;
+	background: white;
+}
+#alert-box span{
+	display: block;
+	width: 280px;
+	height: 40px;
+}
+.alert-title{
+	margin-left: 20px;
+	line-height: 30px;
+	margin: 10px;
+	border-bottom: 1px solid #e4e4e4;
+	font-weight: bold;
+}
+.alert-title a{
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	color: #e4e4e4;
+}
+.alert-title a:hover{
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	color: #999;
+}
+.alert-content{
+	text-align: center;
+	margin: 30px 0 0 0;
+
+}
+.alert-sure{
+	margin-top: 20px;
+	height: 100px;
+}
+.alert-sure a{
+	float: right;
+	line-height: 40px;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+	color: #ffffff;
+	background-color: #55acef;
+}
+/* 弹层结束 */

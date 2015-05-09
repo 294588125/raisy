@@ -1,0 +1,14 @@
+$(function(){
+   $('#new').click(function(){
+   	   $('#tanceng').css('display','block').animate(10000);
+   	   $('#bkgd').css('display','block').animate(10000);
+   });
+   $('.close').click(function(){
+   	   $('#tanceng').css('display','none');
+   	   $('#bkgd').css('display','none');
+   });
+   $('.ok').click(function(){
+   	  $('#tanceng').css('display','none');
+   	  $('#bkgd').css('display','none');
+    });
+});

@@ -1,0 +1,17 @@
+#project-like .type ul{
+	padding-bottom: 20px;
+}
+#project-like a{
+	color: #333;
+}
+
+/*#project-like .name a{
+	display: block;
+	float:left;
+}*/
+#project-like table p:hover{
+	color:#55acef;
+}
+#project-like table a:hover{
+	color:#55acef;
+}

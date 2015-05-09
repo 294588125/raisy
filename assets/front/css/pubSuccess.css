@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#kong{
+	width: 100%;
+	height: 60px;
+}
+.process{
+	width: 100%;
+	height: 100px;
+	padding-top: 40px;
+	background: #f5f5f5;
+}
+.process span{
+	display: block;
+	padding-top: 30px;
+	width: 935px;
+	height: 32px;
+	margin: 0 auto;
+	background: url(../img/bg-project-edit-new.png) no-repeat;
+	background-position: 0 -195px;
+
+}
+.ground{
+	height: 300px;
+	
+}
+h1,h2{
+	margin-left: 300px;
+	margin-top: 30px;
+}
+.ground a{
+	margin-left: 300px;
+	margin-top: 30px;
+	display: block;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+	color: #ffffff;
+	background-color: #55acef;
+}
+.ground a:hover{
+	margin-left: 300px;
+	margin-top: 30px;
+	display: block;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+	color: #55acef;
+	background-color: #ffffff;
+	border: 1px solid #55ACEF;
+}

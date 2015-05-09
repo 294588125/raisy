@@ -1,0 +1,223 @@
+/*li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.wrap{
+	width: 1084px;
+	margin: 0 auto;
+}*/
+#head{
+	margin-top: 50px;
+	height: 40px;
+	border-bottom: 2px solid #ccc;
+}
+#head p{
+	font-size: 20px;
+	font-weight: bold;
+}
+#new{
+	margin-top: 20px;
+}
+.newad{
+      color:  #55acef;
+      font-size: 17px;
+}
+#pay_detail{
+	margin-top: 50px;
+	height: 40px;
+	border-bottom: 2px solid #ccc;
+}
+#pay_detail p{
+	font-weight: bold;
+	font-size: 20px;
+}
+#supdtl{
+	height: 200px;
+}
+#supdtl-head{
+	margin-top: 30px;
+}
+#supdtl-head span{
+    float: left;
+    font-size: 14px;
+    color: #999;
+}
+
+.supdtl-cont{
+	background: #f5fbff;
+	margin-top: 80px;
+	height: 160px;
+	border: 2px solid #55acef;
+}
+.supdtl-cont span{
+    float: left;
+    font-weight:bold;
+    line-height: 40px;
+    font-size: 14px;
+    color: #000;
+}
+.pos1{
+	width: 360px;
+}
+.pos2{
+	width: 350px;	
+}
+.pos3{
+	width: 150px;
+	color: red;
+}
+.pos4{
+	width: 120px;
+}
+.pos5{
+	width: 150px;
+}
+.supdtl-cont-bot{
+	margin-top: 100px;
+    padding-top: 0px;
+    padding-right: 20px;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid #b1d0ff;
+}
+#supdtl p{
+    width: 130px;
+	margin-top: -10px;
+}
+#supdtl textarea{
+	vertical-align: middle;
+    width: 853px;
+    height: 35px;
+    margin-left: 10px;
+    border: 1px solid #e4e4e4;
+}
+#fangshi{
+	margin-top:0px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#fangshi button{
+	width: 200px;
+	height: 50px;
+	background: #fff;
+	border: 2px solid  #55acef;
+	cursor: pointer;
+}
+#fangshi p{
+	font-size: 16px;
+	color: #55acef;
+}
+#kb{
+	height:100px;
+}
+#newadress{
+}
+#kuang{
+	/*height: 369px;
+	width:460px;*/
+	border-bottom: 0;
+	background: white;
+	width: 460px;
+	position: fixed;
+	top:40px;
+	left: 50%;
+	z-index: 600;
+	margin-left:-263px;
+	border:1px solid #eee;
+	display: none;
+}
+.tit{
+	height: 40px;
+	line-height:40px;
+	background:#55acef;
+	margin-bottom:20px;
+}
+.tit h3{
+	margin-left:30px;
+	color:#fff;
+}
+.form-content{
+	display:block;
+	padding: 0 20px 20px 20px;
+}
+.form-hang{
+	margin-bottom: 10px;
+	height: 32px;
+	line-height: 32px;
+	display:block;
+}
+.form-hang label {
+	float: left;
+	font-size: 14px; 
+	height: 28px;
+	line-height: 28px;
+	text-align: right;
+	width: 100px;
+}
+#kuang input[type="text"] {
+	border: 1px solid #e4e4e4;
+	color: black;
+	font-size: 14px;
+	height: 17px;
+	line-height: 17px;
+	padding: 8px 0 8px 10px;
+	width: 235px;
+}
+#kuang select{
+	width: 100px;
+	height: 26px;
+	border: 1px solid #9c9c9c;
+	color: #555;
+	line-height: 26px;
+	margin-right: 5px;
+	background-color: white;
+	display: inline-block;
+}
+#kuang input[type="radio"] {
+	padding: 0;
+	box-sizing: border-box;
+	vertical-align: -2px;
+	margin: 0px 3px 0px 0px;
+	cursor: pointer;
+}
+#kuang .btn{
+	border-top: 1px solid #e0e0e0;
+	height: 13px;
+	padding: 10px 0;
+	text-align: right;
+}
+.cancel{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	background: #ccc;
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.save{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	background: #55acef;
+	display:block;
+}
+
+
+
+
+
+
+
+

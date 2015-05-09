@@ -1,0 +1,136 @@
+#person-content .sidebar{
+	height: 200px;
+}
+#news_content .prompt{
+	display: none;
+}
+#news_content .message li{
+	padding: 20px 5px 10px 5px;
+	height: 73px;	
+	border-bottom:1px solid #e5e5e5;
+}
+#news_content .message li img{
+	width: 46px;
+	height: 46px;
+	float: left;
+	margin-right: 20px;
+}
+#news_content .message .name{
+	height: 60px;
+}
+#news_content .message .content-mess p{
+	width: 800px;
+}
+#news_content .message .content-mess .reply{
+	height: 20px;
+	line-height: 20px;
+}
+#news_content .message .content-mess .reply a{
+	color:#55acef;
+}
+#news_content .message .content-mess .reply span{
+	color:#999;
+}
+#news_content .message .content-mess .content-text{
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#news_content .message .operate{
+	text-align: right;
+	height: 18px;
+	line-height: 18px;
+}
+#news_content .message .operate a{
+	margin-right: 20px;
+	font-size: 12px;
+	color: #f33a5e;
+	}
+/*弹出回复框开始*/
+
+
+.answer-content{	
+	width: 459px;
+	height: 308px;
+	background: #fff;
+	z-index: 3;
+	position: fixed;
+	top: 50px;
+	left: 50%;
+	margin-left:-229px;
+	display: none;
+}
+.answer-content .answer-header{
+	font-size: 12px;
+	color:#fff;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	background:#55acef;
+
+}
+.answer-content .answer-header h2{
+	padding-left: 10px;
+	float:left;
+	font-weight: normal;
+}
+.answer-content .answer-header span{
+	font-size: 24px;
+	font-weight: bold;
+	float: right;
+}
+.close{
+	display: block;
+	width: 40px;
+	height: 40px;
+	float: right;
+	cursor: pointer;
+}
+.answer-content .content{
+	padding-left: 30px;
+	width: 427px;
+	height: 206px;
+}
+.answer-content .content h2{
+	font-weight: normal;
+	font-size: 16px;
+	margin:15px 0;
+}
+.answer-content .content textarea{
+	width: 394px;
+	height: 140px;
+	padding:4px;
+	border-radius: 3px;
+	resize: none;
+}
+.answer-content .btn{
+	margin-right: 15px;
+
+}
+.answer-content .btn a{
+	display: block;
+	float:right;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color:#fff;
+	font-size: 12px;
+	
+}
+.answer-content .send{
+	width:100px;
+	height:35px;
+	line-height:10px;
+	margin-left:220px;
+	background:#55acef;
+	color:#fff;
+	cursor: pointer;
+}
+.answer-content .cancel{
+	background: #ccc;
+	margin:0 10px ;
+}
+
+/*弹出回复框结束*/

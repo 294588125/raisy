@@ -1,0 +1,18 @@
+$(function(){
+	$('#message').click(function(){
+   	   $('#body_message').css('display','block').css('position','fixed').css('bottom','100px');
+   	   $('#footer').css('position','fixed').css('bottom','20px');
+   	   $('#send').css('display','block');
+   	   $('#cancel').css('display','block');
+   });
+   $('#send').click(function(){
+   	   $(this).css('display','none');
+   	   $('#cancel').css('display','none');
+   	   $('#body_message').css('display','none');
+   });
+   $('#cancel').click(function(){
+   	   $(this).css('display','none');
+   	   $('#send').css('display','none');
+   	   $('#body_message').css('display','none');
+   });
+});

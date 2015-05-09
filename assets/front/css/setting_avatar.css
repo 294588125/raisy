@@ -1,0 +1,26 @@
+#avatar-content img{
+	margin-top: 10px;
+	float:left;
+}
+#avatar-content .upload-avatar{
+	float:right;
+	margin: 10px 680px 0 20px;
+	/*margin-top: 10px;
+	margin-left: 40px;*/
+	width: 110px;
+	height: 50px;
+	background: #55acef;
+	font-size: 18px;
+	color:#fff;
+	text-align: center;
+	border: 0;
+}
+#avatar-content span{
+	height: 40px;
+	line-height: 40px;
+	float:right;
+	font-size: 14px;
+	font-weight: bold;
+	color:#999;
+	margin: 0px 560px 0 20px;
+}

@@ -1,0 +1,10 @@
+$(function(){
+	$('.message').click(function(){
+   	   $('#tanceng').css('display','block');
+   	   $('#bkgd').css('display','block');
+   });
+   $('.close').click(function(){
+   	   $('#tanceng').css('display','none');
+   	   $('#bkgd').css('display','none');
+   });
+});

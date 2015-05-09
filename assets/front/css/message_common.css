@@ -1,0 +1,259 @@
+.hide-behind{
+	background: black;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	display: none;
+}
+.delete-content{
+	width: 300px;
+	height: 164px;	
+	position: fixed;
+	top:50px;
+	left:50%;
+	margin-left: -150px;
+	background: #fff;
+	display: none;
+	z-index:3;
+}
+.delete-receive{
+	width: 300px;
+	height: 164px;	
+	position: fixed;
+	top:50px;
+	left:50%;
+	margin-left: -150px;
+	background: #fff;
+	display: none;
+	z-index:3;
+}
+.delete-send{
+	width: 300px;
+	height: 164px;	
+	position: fixed;
+	top:50px;
+	left:50%;
+	margin-left: -150px;
+	background: #fff;
+	display: none;
+	z-index:3;
+}
+.delete-comment-content{
+	width: 300px;
+	height: 164px;	
+	position: fixed;
+	top:50px;
+	left:50%;
+	margin-left: -150px;
+	background: #fff;
+	display: none;
+	z-index:3;
+}
+.delete-content .header{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #999;
+}
+.delete-content .header h2{
+	float: left;
+	margin-left: 10px;
+	color: #333;
+}
+.delete-content .header span{
+	display: block;
+	padding-top: 5px;
+	height: 35px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color:#999;
+	font-weight: bold;
+	cursor: pointer;
+	float:right;
+}
+.delete-content .content{
+	width: 100%;
+	height: 63px;
+	line-height: 63px;
+	text-align: center;
+	font-size: 14px;
+}
+.delete-content .btn a{
+	display: block;
+	float: right;
+	width: 58px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 10px;
+	color: #fff
+
+}
+.delete-content .btn .ensure{
+	background: #55acef;
+}
+.delete-content .btn .cancel{
+	background: #ccc;
+	margin-left: 10px;
+}
+
+
+.delete-comment-content .header{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #999;
+}
+.delete-comment-content .header h2{
+	float: left;
+	margin-left: 10px;
+	color: #333;
+}
+.delete-comment-content .header span{
+	display: block;
+	padding-top: 5px;
+	height: 35px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color:#999;
+	font-weight: bold;
+	cursor: pointer;
+	float:right;
+}
+.delete-comment-content .content{
+	width: 100%;
+	height: 63px;
+	line-height: 63px;
+	text-align: center;
+	font-size: 14px;
+}
+.delete-comment-content .btn a{
+	display: block;
+	float: right;
+	width: 58px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 10px;
+	color: #fff
+
+}
+.delete-comment-content .btn .comm-ensure{
+	background: #55acef;
+}
+.delete-comment-content .btn .cancel{
+	background: #ccc;
+	margin-left: 10px;
+}
+
+
+
+.delete-send .header{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #999;
+}
+.delete-send .header h2{
+	float: left;
+	margin-left: 10px;
+	color: #333;
+}
+.delete-send .header span{
+	display: block;
+	padding-top: 5px;
+	height: 35px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color:#999;
+	font-weight: bold;
+	cursor: pointer;
+	float:right;
+}
+.delete-send .content{
+	width: 100%;
+	height: 63px;
+	line-height: 63px;
+	text-align: center;
+	font-size: 14px;
+}
+.delete-send .btn a{
+	display: block;
+	float: right;
+	width: 58px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 10px;
+	color: #fff
+
+}
+.delete-send .btn .send-ensure{
+	background: #55acef;
+}
+.delete-send .btn .cancel{
+	background: #ccc;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+.delete-receive.header{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #999;
+}
+.delete-receive.header h2{
+	float: left;
+	margin-left: 10px;
+	color: #333;
+}
+.delete-receive .header span{
+	display: block;
+	padding-top: 5px;
+	height: 35px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color:#999;
+	font-weight: bold;
+	cursor: pointer;
+	float:right;
+}
+.delete-receive .content{
+	width: 100%;
+	height: 63px;
+	line-height: 63px;
+	text-align: center;
+	font-size: 14px;
+}
+.delete-receive .btn a{
+	display: block;
+	float: right;
+	width: 58px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 10px;
+	color: #fff
+
+}
+.delete-receive .btn .receive-ensure{
+	background: #55acef;
+}
+.delete-receive .btn .cancel{
+	background: #ccc;
+	margin-left: 10px;
+}
